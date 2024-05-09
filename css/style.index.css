@@ -1,0 +1,171 @@
+html{
+    font-size: 12px;
+    font-family: 'Kanit', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header{
+    background-color: rgb(159, 231, 166);
+    color: rgb(255, 241, 241);
+    font-size: 2rem;
+    padding: 10px;
+}
+.column-100{
+    width: 100%;
+    text-align: center;
+    margin-left:  230px;
+    margin-right: 230px;
+    color: white;
+}
+.column-65{
+    width: 65%;
+    text-align: center;
+}
+.pad{
+    margin-left: 144px;
+}
+.column-33{
+    width: 33.33%;
+    text-align: center;
+}
+.column-35{
+    width: 35%;
+    margin-top: 23px;
+    margin-left: 500px;
+}
+.columna1{
+    text-align: center;
+    color: rgb(159, 231, 166);
+    margin-left: 380px;
+}
+nav li{
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: left;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+nav a{
+    color: rgb(159, 231, 166);
+    text-decoration: none;
+    border-color: rgb(159, 231, 166);
+}
+nav li:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(159, 231, 166);
+}
+.ventas{
+    background-color: rgb(159, 231, 166);
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    margin-right: 40px;
+}
+.menu{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+.imagen1{
+    text-align: center;
+    margin-left: 550px;
+    width: 400px;
+}
+.imagen{
+    margin-left: 130px;
+    width: 700px;
+}
+p{
+    font-size: 1.5rem;
+    color: white;
+}
+h4{
+    font-size: 3rem;
+}
+footer{
+    background-color: rgb(159, 231, 166);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-top: 20px;
+    padding: 5px;
+}
+@media screen and (max-width: 800px) {
+    /* Estilos adicionales para la media query */
+
+    .ventas {
+        margin-right: 0;
+    }
+
+    .pad {
+        margin-left: 10px;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    .column-100,
+    .column-65,
+    .column-35,
+    .columna1,
+    .imagen1,
+    .imagen {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+        text-align: center;
+    }
+
+    .column-35 {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    nav li {
+        display: block;
+        text-align: center;
+    }
+
+    .menu {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .imagen1 {
+        margin-left: 10px;
+    }
+
+    .imagen {
+        margin-left: 10px;
+        width: auto;
+    }
+
+    footer {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    header {
+        font-size: 1.5rem;
+    }
+    .map-container {
+        width: 100%;
+        margin-left: 0;
+    }
+}

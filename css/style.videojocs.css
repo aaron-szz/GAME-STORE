@@ -1,0 +1,160 @@
+html{
+    font-size: 12px;
+    font-family: 'Kanit', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+body{
+    margin: 0;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+header{
+    background-color: rgb(77, 255, 0);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    padding: 10px;
+}
+footer{
+    background-color: rgb(77, 255, 0);
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    padding: 5px;
+}
+.column-100{
+    width: 100%;
+    text-align: center;
+    margin-left:  230px;
+    margin-right: 230px;
+    color: white;
+}
+.column-50{
+    width: 50%;
+}
+.column-45{
+    width: 45%;
+}
+.video{
+    margin-left: 70px;
+    margin-top: 90px;
+}
+.column-55{
+    width: 55%;
+}
+nav{
+    border-bottom: 2px solid rgb(77, 255, 0)
+}
+nav li{
+    background-color: rgba(255, 255, 255, 0);
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: left;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+nav a{
+    color: rgb(255, 244, 244);
+    text-decoration: none;
+}
+nav li:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(77, 255, 0);
+}
+p{
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+h4{
+    font-size: 3rem;
+}
+.caratula1{
+    margin-top: -300px;
+    margin-left: 60px;
+}
+.caratula2{
+    margin-top: -300px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.precio{
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-align: center;
+}
+.per{
+    margin-left: 60px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Ajustar el tamaño de fuente general para una mejor legibilidad */
+        padding: 10px; /* Agregar un espacio alrededor del contenido */
+    }
+
+    header,
+    footer {
+        font-size: 1.5rem; /* Tamaño de fuente del encabezado y pie de página */
+        padding: 10px; /* Ajustar el espacio en los márgenes superior e inferior */
+    }
+
+    nav li {
+        font-size: 1.2rem; /* Tamaño de fuente del menú de navegación */
+        padding: 10px; /* Ajustar el espacio alrededor de cada elemento de menú */
+    }
+
+    .row {
+        flex-direction: column; /* Cambiar la dirección de los elementos de la fila a columna */
+        align-items: center; /* Centrar los elementos de la fila */
+    }
+
+    .column-100 {
+        width: 90%; /* Establecer un ancho más pequeño para ocupar menos espacio */
+        margin: 10px auto; /* Centrar el elemento y agregar un pequeño espacio entre elementos */
+        text-align: center;
+    }
+
+    .column-50,
+    .column-45,
+    .column-55 {
+        width: 90%; /* Hacer que estas columnas ocupen un ancho más pequeño */
+        margin: 10px auto; /* Centrar el elemento y agregar un pequeño espacio entre elementos */
+    }
+
+    .caratula1,
+    .caratula2 {
+        width: 90%; /* Ajustar el ancho de las imágenes */
+        margin: 10px auto; /* Centrar las imágenes y agregar un pequeño espacio entre ellas */
+    }
+
+    .precio,
+    .per {
+        margin: 10px auto; /* Centrar los elementos y agregar un pequeño espacio entre ellos */
+        text-align: center;
+        font-size: 1.2rem; /* Tamaño de fuente */
+    }
+
+    .video {
+        margin: 20px auto; /* Centrar el video y agregar un espacio más grande */
+        width: 90%; /* Establecer un ancho más pequeño para ocupar menos espacio */
+    }
+
+    p {
+        margin: 10px auto; /* Centrar el párrafo */
+        text-align: center; /* Alinear el texto al centro */
+        font-size: 1.2rem; /* Tamaño de fuente */
+        color: #fff; /* Color de texto blanco */
+    }
+
+    nav {
+        flex-direction: column; /* Cambiar la dirección del menú de navegación a columna */
+        align-items: center; /* Centrar los elementos del menú */
+    }
+}
